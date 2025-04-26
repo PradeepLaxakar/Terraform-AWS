@@ -1,7 +1,6 @@
 # Ignore any .terraform directory anywhere
-**/.terraform*
+**/.terraform/
 
-**/.terraform.lock.hcl
 # Ignore Terraform State files anywhere
 **/*.tfstate
 **/*.tfstate.*
@@ -17,6 +16,9 @@
 
 # Ignore Terraform plan files anywhere
 **/*.tfplan
+
+# Ignore Terraform lock files anywhere
+**/.terraform.lock.hcl
 
 # Ignore Terraform CLI configs anywhere
 **/.terraformrc

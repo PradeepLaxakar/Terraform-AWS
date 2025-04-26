@@ -1,0 +1,40 @@
+# Ignore any .terraform directory anywhere
+**/.terraform/
+
+# Ignore Terraform State files anywhere
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore crash logs anywhere
+**/crash.log
+
+# Ignore Terraform override files anywhere
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Ignore Terraform plan files anywhere
+**/*.tfplan
+
+# Ignore Terraform CLI configs anywhere
+**/.terraformrc
+**/terraform.rc
+
+# Ignore Terragrunt cache anywhere
+**/.terragrunt-cache/
+
+# Ignore Atlantis config anywhere
+**/atlantis.yaml
+
+# IDE/editor files anywhere
+**/.vscode/
+**/.idea/
+**/*.swp
+
+# Backup and temp files anywhere
+**/*.bak
+**/*.tmp
+
+# macOS system files anywhere
+**/.DS_Store
